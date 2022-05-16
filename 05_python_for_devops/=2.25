@@ -1,0 +1,33 @@
+Requirement already satisfied: requests in /home/llacarbonara/.local/lib/python3.7/site-packages (2.25.1)
+Collecting pytest==6.2.3
+  Using cached https://files.pythonhosted.org/packages/76/4d/9c00146923da9f1cabd1878209d71b1380d537ec331a1a613e8f4b9d7985/pytest-6.2.3-py3-none-any.whl
+Collecting pytest-mock==3.5.1
+  Using cached https://files.pythonhosted.org/packages/1d/ba/8bf763e2f300c1eba8f07506efd87a3c1c346e751d4dc618c444924b7c22/pytest_mock-3.5.1-py3-none-any.whl
+Requirement already satisfied: python-dateutil in /usr/local/lib/python3.7/site-packages (2.8.0)
+Requirement already satisfied: idna<3,>=2.5 in /usr/local/lib/python3.7/site-packages (from requests) (2.8)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /usr/local/lib/python3.7/site-packages (from requests) (1.25.3)
+Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.7/site-packages (from requests) (2019.6.16)
+Requirement already satisfied: chardet<5,>=3.0.2 in /usr/local/lib/python3.7/site-packages (from requests) (3.0.4)
+Collecting toml (from pytest==6.2.3)
+  Downloading https://files.pythonhosted.org/packages/44/6f/7120676b6d73228c96e17f1f794d8ab046fc910d781c8d151120c3f1569e/toml-0.10.2-py2.py3-none-any.whl
+Collecting importlib-metadata>=0.12; python_version < "3.8" (from pytest==6.2.3)
+  Downloading https://files.pythonhosted.org/packages/92/f2/c48787ca7d1e20daa185e1b6b2d4e16acd2fb5e0320bc50ffc89b91fa4d7/importlib_metadata-4.11.3-py3-none-any.whl
+Collecting packaging (from pytest==6.2.3)
+  Downloading https://files.pythonhosted.org/packages/05/8e/8de486cbd03baba4deef4142bd643a3e7bbe954a784dc1bb17142572d127/packaging-21.3-py3-none-any.whl (40kB)
+Collecting pluggy<1.0.0a1,>=0.12 (from pytest==6.2.3)
+  Downloading https://files.pythonhosted.org/packages/a0/28/85c7aa31b80d150b772fbe4a229487bc6644da9ccb7e427dd8cc60cb8a62/pluggy-0.13.1-py2.py3-none-any.whl
+Collecting attrs>=19.2.0 (from pytest==6.2.3)
+  Downloading https://files.pythonhosted.org/packages/be/be/7abce643bfdf8ca01c48afa2ddf8308c2308b0c3b239a44e57d020afa0ef/attrs-21.4.0-py2.py3-none-any.whl (60kB)
+Collecting iniconfig (from pytest==6.2.3)
+  Downloading https://files.pythonhosted.org/packages/9b/dd/b3c12c6d707058fa947864b67f0c4e0c39ef8610988d7baea9578f3c48f3/iniconfig-1.1.1-py2.py3-none-any.whl
+Collecting py>=1.8.2 (from pytest==6.2.3)
+  Downloading https://files.pythonhosted.org/packages/f6/f0/10642828a8dfb741e5f3fbaac830550a518a775c7fff6f04a007259b0548/py-1.11.0-py2.py3-none-any.whl (98kB)
+Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.7/site-packages (from python-dateutil) (1.12.0)
+Collecting typing-extensions>=3.6.4; python_version < "3.8" (from importlib-metadata>=0.12; python_version < "3.8"->pytest==6.2.3)
+  Downloading https://files.pythonhosted.org/packages/75/e1/932e06004039dd670c9d5e1df0cd606bf46e29a28e65d5bb28e894ea29c9/typing_extensions-4.2.0-py3-none-any.whl
+Collecting zipp>=0.5 (from importlib-metadata>=0.12; python_version < "3.8"->pytest==6.2.3)
+  Downloading https://files.pythonhosted.org/packages/80/0e/16a7ee38617aab6a624e95948d314097cc2669edae9b02ded53309941cfc/zipp-3.8.0-py3-none-any.whl
+Collecting pyparsing!=3.0.5,>=2.0.2 (from packaging->pytest==6.2.3)
+  Downloading https://files.pythonhosted.org/packages/6c/10/a7d0fa5baea8fe7b50f448ab742f26f52b80bfca85ac2be9d35cdd9a3246/pyparsing-3.0.9-py3-none-any.whl (98kB)
+Installing collected packages: toml, typing-extensions, zipp, importlib-metadata, pyparsing, packaging, pluggy, attrs, iniconfig, py, pytest, pytest-mock
+Successfully installed attrs-21.4.0 importlib-metadata-4.11.3 iniconfig-1.1.1 packaging-21.3 pluggy-0.13.1 py-1.11.0 pyparsing-3.0.9 pytest-6.2.3 pytest-mock-3.5.1 toml-0.10.2 typing-extensions-4.2.0 zipp-3.8.0
